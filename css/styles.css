@@ -1,0 +1,60 @@
+.index {
+    background-image: url("../img/kanto-map.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* los elementos a que se encuentran dentro de un elemento con clase index */
+
+.index a {
+    text-decoration: none;
+    color: white;
+}
+
+span {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+img {
+    width: 25%;
+}
+
+
+/* cindaquil.html */
+
+.cindaquil {
+    background-color: antiquewhite;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.cindaquil a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+#enlace {
+    text-align: center;
+}
+
+img {
+    width: 25%;
+}
+
+span {
+    background-color: orange;
+    padding: 3px;
+    border-radius: 5px;
+}
