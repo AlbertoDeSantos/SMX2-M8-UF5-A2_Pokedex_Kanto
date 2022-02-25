@@ -18,14 +18,14 @@ h1 {
     color: white;
 }
 
-span {
+.index span {
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 15px;
     border-radius: 10px;
 }
 
-img {
+.index img {
     width: 25%;
 }
 
@@ -49,12 +49,22 @@ img {
     text-align: center;
 }
 
-img {
+.cindaquil img {
     width: 25%;
 }
 
-span {
+.cindaquil span {
     background-color: orange;
     padding: 3px;
     border-radius: 5px;
+}
+
+
+/* Media query para el diseño responsive */
+
+@media only screen and (max-width: 600px) {
+    .index img,
+    .cindaquil img {
+        width: 100%;
+    }
 }
